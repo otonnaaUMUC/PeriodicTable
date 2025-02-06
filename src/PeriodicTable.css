@@ -1,0 +1,122 @@
+
+  .App {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .periodic-table {
+    margin: 20px auto;
+    display: inline-block;
+    border: 1px solid #cccccc;
+  }
+  
+  table {
+    border-collapse: collapse;
+  }
+  
+  td {
+    padding: 10px;
+  }
+  
+  button {
+    width: 50px;
+    height: 55px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    text-align: center;
+    text-justify: center;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  button:hover {
+   border-style:double;
+   font-style:italic;
+  }
+  
+  .element-details {
+    margin-top: 20px;
+    border-color: rgb(13, 42, 80);
+    border-style: double;
+    border-radius: 8px;
+    padding: 10px;
+    width:fit-content;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  h2 {
+    margin: 10px 0;
+  }
+  
+  p {
+    margin: 5px 0;
+  }
+
+  .actinoids {
+    background-color: #b87927;
+  }
+
+  .alkaline-earth-metals {
+    background-color: #c0b15c;
+  }
+
+  .alkaline-metals {
+    background-color: #d8a312d2;
+  }
+  
+  .halogens {
+    background-color: #6fb91b;
+  }
+  
+  .lanthanoids {
+    background-color: khaki;
+  } 
+
+  .metalloids {
+    background-color: yellow; 
+  }   
+
+  .noble-gases {
+    background-color: #00ff00;
+  }
+  
+  .non-metals{
+    background-color: #cbce22;
+  }
+
+  .reactive-metals {
+    background-color: #ffcc00;
+  }  
+
+  .transition-metals {
+    background-color: #ff9900e5;
+  }
+  
+  .post-transition-metals {
+    background-color: #badd3d;
+  }
+
+  .blankSpace {
+    background-color: #ffffff;
+    border-style: none ; 
+    visibility: hidden;  
+  };
+
+  .atomic-number {
+    font-size:large;
+    color:red;
+  }
+
+
+
+ 
+ 
+ 
+ 
+
+
+  
+  
+ 
