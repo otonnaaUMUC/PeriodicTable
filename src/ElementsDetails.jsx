@@ -6,7 +6,8 @@ function ElementDetails({ element }) {
 
   return (
     <div className="element-details">
-      <h2>{element.name} ({element.symbol})</h2>
+      <h2 className='footer'>{element.name} </h2>
+      <p>Atomic Symbol: {element.symbol}</p>
       <p>Atomic Number: {element.atomicNumber}</p>
       <p>Atomic Weight: {element.atomicWeight}</p>
     </div>

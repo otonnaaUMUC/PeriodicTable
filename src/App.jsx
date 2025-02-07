@@ -7,6 +7,7 @@ function App() {
   return (
     <div className="App">     
       <PeriodicTable />
+      <p className="footer">Copyright &copy; 2025 - Data Science Software LLC. (Donald & Chidi Otonnaa)</p>
     </div>
   );
 }
