@@ -160,13 +160,6 @@ const elements = [
     { symbol: 'Fm', name: 'Fermium', atomicNumber: 100, atomicWeight: 257 },
     { symbol: 'Md', name: 'Mendelevium', atomicNumber: 101, atomicWeight: 258 },
     { symbol: 'No', name: 'Nobelium', atomicNumber: 102, atomicWeight: 259 },
-    { symbol: 'Lr', name: 'Lawrencium', atomicNumber: 103, atomicWeight: 262 } 
-  ];
-
-  function Elements() {
-    return elements;
-  } ;
-
-  export default elements;
-
-
+    { symbol: 'Lr', name: 'Lawrencium', atomicNumber: 103, atomicWeight: 262 }
+]
+export default elements;
