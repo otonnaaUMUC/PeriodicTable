@@ -1,5 +1,5 @@
 // src/PeriodicTable.js
-import React, { useState } from 'react';
+import { useState } from 'react';
 import ElementDetails from  './ElementsDetails';
 import elements from './elements';
 import './PeriodicTable.css';
@@ -189,8 +189,9 @@ function PeriodicTable() {
       case 19:
       case 37:     
       case 55:
-      case 87:             
-      return 'alkaline-metals';   
+      case 87:  
+      return 'alkaline-metals';           
+   
       case 4:
       case 12:
       case 20:
